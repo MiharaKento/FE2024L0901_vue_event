@@ -5,5 +5,10 @@ new Vue({
         return {
             
         };
+    },
+    mthods:{
+        handleClick(){
+            this.text='button pushed';
+        }
     }
 });
